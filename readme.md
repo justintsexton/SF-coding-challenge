@@ -1,4 +1,4 @@
-#AIG Calculator Coding Challenge
+# AIG Calculator Coding Challenge
 
 You'll be building a simple react component: a calculator. It will look like the native calculator on an iOS or OSX.
 
@@ -8,14 +8,14 @@ As a starting point, this repo already has webpack, babel, react, redux and sass
 
 Javascript files are under `app/js`. SASS files are under `app/stylesheets`.
 
-##Design & behavior
+## Design & behavior
 - Using SASS (or CSS), make the design match the image (Ignoring the phone specific stuff at the top)
 - As you enter a number, it should show up in the output at the top
 - When you hit an operator (+, -, etc), that button should have an active state
 - When you type in the next number, it should show up in the output
-- When you hit equal or some other operator, the previous operation should be run on the numbers given.
+- When you hit equal or some other operator, the previous operation should be run on the numbers given
 
-##Colors & measurements
+## Colors & measurements
 - You can make the calculator any size you want, but all the text should match the size
 - Text color (unless specified below): `#000`
 - Output box
@@ -37,6 +37,6 @@ Javascript files are under `app/js`. SASS files are under `app/stylesheets`.
 - Browser compatibility can be with the latest Chrome
 - Break it down into as many subcomponents as you feel necessary
 
-##Running the app
+## Running the app
 - `npm run start`
 - open http://localhost:8080
